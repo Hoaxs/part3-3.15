@@ -33,7 +33,7 @@ app.get('/api/persons', (request, response) => {
     })
 })
 
-console.log()
+
 // use Mongoose findById method
 app.get('/api/persons/:id', (request, response) => {
     Person.findById(request.params.id)
